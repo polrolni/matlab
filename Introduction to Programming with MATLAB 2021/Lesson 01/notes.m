@@ -45,8 +45,10 @@ xlabel('Desc for X');
 ylabel('Desc for Y');
 title('Some interesting title');
 axis([0,12, -10, 20])
+
 figure
 bar(x_coords, y_coords)
+
 figure
 pie([4 2 7 4 7])
 
