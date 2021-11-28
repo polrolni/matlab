@@ -10,6 +10,7 @@ global v;
 [m, s] = myRand(-2, 6)
 v
 
-fprintf('This concludes lesson 3\n');
+fprintf('This concludes lesson 3\nPause 5 seconds ... ');
 pause(5)
-quit;
+fprintf('done\n');
+% quit;
